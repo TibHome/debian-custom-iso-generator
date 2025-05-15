@@ -34,3 +34,5 @@ setupcon
 systemctl disable firstboot.service
 rm -f /etc/systemd/system/firstboot.service
 rm -f /usr/local/bin/*
+
+/bin/systemctl reboot
