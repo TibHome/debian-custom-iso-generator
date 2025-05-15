@@ -47,8 +47,8 @@ To use the Docker image, execute the following command:
 
 ```sh
 docker  run \
-        -v /tmp/output:/output \            # mapping for final ISO
-        -v /tmp/original:/original \        # mapping for original ISO
-        -e VARIABLE="MA_VAR" \              # define your parameters
+        -v /tmp/output:/output \
+        -v /tmp/original:/original \
+        -e VARIABLE="MA_VAR" \
         tibhome/debian-custom-iso-generator
 ```
